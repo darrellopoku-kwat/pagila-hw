@@ -15,7 +15,7 @@ JOIN inventory AS i
 JOIN film AS f
     ON f.film_id = i.film_id
 GROUP BY f.title 
-ORDER BY profit DESC, f.title DESC; 
+ORDER BY profit DESC, f.title ASC; 
 
 
 
